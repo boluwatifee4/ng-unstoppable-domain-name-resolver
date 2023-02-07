@@ -1,0 +1,63 @@
+.fadeIn {
+  animation: fadeIn .8s ease-in-out;
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+
+.bounce {
+  position: relative;
+  animation-delay: 2s;
+  animation: bounce 1s  ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+@keyframes typing {
+  from {
+      width: 0
+  }
+
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+      border-color: transparent
+  }
+  50% {
+      border-color: orange
+  }
+}
+.typewriter p {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}

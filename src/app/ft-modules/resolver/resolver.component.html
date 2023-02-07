@@ -1,0 +1,35 @@
+<div class="bg-black">
+  <div
+    class="fadeIn slide bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 flex justify-center items-center h-screen">
+
+    <div class="flex flex-col items-center">
+      <div>
+        <img src="assets/logos/resolveLogo.png" alt="">
+      </div>
+
+      <div>
+        <input #searchInput
+        (input)="searchInputValue($event)"
+         placeholder="Enter domain name"
+          class="rounded-lg rounded-br-xl rounded-tr-xl font-semibold w-auto lg:w-96 border-none focus:border-none p-5 h-10" type="text">
+          <button (click)="go()" class=" bg-white border border-cyan-400 text-black py-1 px-2 font-semibold rounded-full ml-[-37px] h-fit">Go</button>
+      </div>
+
+
+      <div
+        class=" text-white mx-2 font-bold text-xs lg:text-sm py-10 px-1 lg:px-5 my-5 h-full w-auto lg:w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border border-blue-400">
+        <img src="assets/logos/cCare.png" class=" w-10  lg:w-20 bounce" alt="">
+        <div class=" lg:typewriter">
+          <p
+          [ngClass]="hasError === true ? 'text-red-500 font-semibold' : 'text-white font-bold'" 
+          class="px-2 lg:px-7">
+            {{customerServiceResponse}}
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</div>
