@@ -32,6 +32,7 @@ export class ResolverComponent implements OnInit {
           this.addr = data?.address;
         }
         if (this.addr) {
+          this.customerServiceResponse = `${this.addr} belongs to "${this.domainName}"`
           this.getAccountBalance(this.addr);
           this.getAddrTransacCounts(this.addr);
         }
