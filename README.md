@@ -1,8 +1,8 @@
-#  [Ng Unstoppable Domain Nmae Resolver](https://bima-unstoppabledomainresolver.netlify.app/)
+#  [Ng Unstoppable Domain Name Resolver](https://bima-unstoppabledomainresolver.netlify.app/) 😎
 
 ![image](https://user-images.githubusercontent.com/87859583/217401253-38bdd197-20fb-40c2-a414-8098e5a4c010.png)
 
-This is an Angular web3 Dapp for resolving unstoppable domains that are on the Eth network.
+This is an Angular web3 Dapp for resolving unstoppable domains that are on the Eth network. This means any user can get the linked address to a domain name and get more informations about the detected address when interacting with this dapp.
 
 ## Technologies Used
 
