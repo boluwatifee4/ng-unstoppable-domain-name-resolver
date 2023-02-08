@@ -1,4 +1,21 @@
-# AngDapp
+#  [Ng Unstoppable Domain Nmae Resolver](https://bima-unstoppabledomainresolver.netlify.app/)
+
+![image](https://user-images.githubusercontent.com/87859583/217401253-38bdd197-20fb-40c2-a414-8098e5a4c010.png)
+
+This is an Angular web3 Dapp for resolving unstoppable domains that are on the Eth network.
+
+## Technologies Used
+
+- Moralis
+- Web3.js
+- Tailwind CSS
+- Angular
+
+## Features
+
+- 100% responsive
+- PWA supported
+- Domain resolver
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
